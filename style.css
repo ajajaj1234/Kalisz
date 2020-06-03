@@ -1,0 +1,127 @@
+* {margin: 0;
+    padding: 0;
+    font-family: Roboto, arial;
+    box-sizing: border-box;
+}
+body {background-color: yellow;}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: whitesmoke;
+}
+header img{
+    width: 100%;
+display: block
+}
+nav {
+    background-color: darkcyan;
+}
+a.menu {
+    display: inline-block;
+    width: 25%; 
+    padding: 15px 30px 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+a.menu:hover{
+    background-color: crimson;
+}
+.active {background-color: crimson;}
+
+article{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+article h1 {
+    margin: 0 20% 20px 20%;
+    font-size: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 15px;
+    border-bottom: 2px solid blue;
+}
+.left{
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+iframe {
+    width: 100%;
+}
+article p{
+    text-align: justify;
+    padding: 5%;
+    line-height: 25px;
+}
+ol{
+    text-align: justify;
+    padding: 5%;
+    line-height: 25px;
+}
+article h2 {
+    margin: 0 20% 20px 20%;
+    font-size: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 15px;
+    border-bottom: 2px solid blue;
+}
+ 
+
+
+ol1
+{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            font-size: 25px;
+            height: 44px;
+            display: inline-block;
+}
+ol1 a
+{
+                color: #FFFFFF;
+                text-decoration: none;
+}
+ol1 > li1 
+{
+                float: left;
+                padding: 10px 31px;
+}
+ol1 > li1:hover
+{
+                background-color:crimson;
+}
+#odnosniki
+{
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0px;
+    background-color: darkcyan;
+    text-align: center;
+}
+.right{
+    float: right;
+    padding: 10px;
+    width: 10%;
+}
+footer h1 {
+    margin: 0 20% 20px 20%;
+    font-size: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 15px;
+    border-bottom: 2px solid blue;
+}
+    p{
+    text-align: justify;
+    line-height: 25px;
+    text-align: center;
+        font-size: 18px;
+        padding: 15px 0 15px 0;
+    width: 100%;
+   
+}
